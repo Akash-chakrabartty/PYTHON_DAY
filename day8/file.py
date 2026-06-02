@@ -1,0 +1,26 @@
+f = open("C:\\Users\\KIIT0001\\OneDrive\\Desktop\\60 days\\python\\day8\\demo.txt", "a+")
+
+# data=f.read()
+# print(data)
+
+# data=f.read(5)
+# print(data)
+
+# line1=f.readline()
+# print(line1)
+# line2=f.readline()
+# print(line2)
+# line3=f.readline()
+# print(line3)
+# line4=f.readline()
+# print(line4)
+# line5=f.readline()
+# print(line5)
+# line6=f.readline()
+# print(line6)
+f.write("\nhello how are you")
+f.seek(0)
+data=f.read()
+print(data)
+
+f.close()
